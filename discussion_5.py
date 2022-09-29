@@ -11,7 +11,6 @@ def count_a(sentence):
 # Item class
 # Describes an item to be sold. Each item has a name, a price, and a stock.
 class Item:
-	# Constructor.
 	def __init__(self, name, price, stock):
 		self.name = name
 		self.price = price
